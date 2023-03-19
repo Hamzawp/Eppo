@@ -1,0 +1,100 @@
+.parentSingleCategory{
+    margin-left: 90px;
+    margin-right: 0px;
+    /* width: 100%; */
+    height: 80vh;
+    background-color: #ebebeb;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    margin-top: 0px;
+    
+}
+.bannerCategory{
+    display: flex;
+    background-color: #fff;
+    max-width: 100%;
+    max-height: 25vh;
+    margin: 30px 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.iconCategory{
+    width: 15%;
+    height: 100%;
+    /* border-right: 2px solid #242582; */
+}
+.iconCategory img{
+    width: 100%;
+    height: 100%;
+}
+.detailsCategory{
+    width: 70%;
+    padding: 15px 15px;
+}
+.bookbuttonCategory{
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookbuttonCategory button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:#242582;
+    color: #fff;
+}
+
+
+/* View Profile Btn  */
+.viewprofileCategory button {
+    margin-top: 1rem;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #242582;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #242582;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .viewprofileCategory button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #242582;
+    z-index: -1;
+  }
+  
+  .viewprofileCategory button:hover, .viewprofileCategory button:focus {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .viewprofileCategory button:hover:before, .viewprofileCategory button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  .viewprofileCategory button:active {
+    transform: scale(0.9);
+  }
+/* View Profile Btn  */

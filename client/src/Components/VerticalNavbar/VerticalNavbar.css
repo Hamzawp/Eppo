@@ -1,0 +1,83 @@
+.navbar nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background-color: #242582;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  z-index: 99999999999999;
+  color: #fff;
+}
+.navbar .logo {
+  text-align: center;
+  display: flex;
+  transition: all 0.5s ease;
+}
+.navbar .logo i {
+  font-size: 2.5rem;
+  color: #f64c72;
+  border-radius: 50%;
+  margin: 15px 0 0 20px;
+  /* margin-top: 10px; */
+  /* margin-left: -25px; */
+}
+.navbar .logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 25px;
+  color: #f64c72;
+}
+.navbar a {
+  position: relative;
+  color: #66fcf1;
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+  text-decoration: none;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar span {
+  color: #fff;
+  font-size: 18px;
+}
+.navbar .fas {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 45px;
+  font-size: 25px;
+  text-align: center;
+  /* margin-right: 45px; */
+  margin-left: 25px;
+}
+.navbar .nav-items {
+  position: relative;
+  top: 12px;
+  margin-left: 90px;
+}
+/* .navbar a:hover {
+  background: #144754;
+  color: #fff;
+} */
+.navbar a.active {
+  background: #144754;
+  color: #fff;
+}
+.navbar nav:hover {
+  width: 280px;
+  transition: all 0.5s ease;
+}
+.navbar nav.active {
+  width: 280px;
+  transition: all 0.5s ease;
+}

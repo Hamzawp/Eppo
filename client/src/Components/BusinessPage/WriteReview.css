@@ -1,0 +1,30 @@
+.parentWriteReview{
+    padding: 0px 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+.parentWriteReview h2{
+    text-transform: uppercase;
+}
+.textareawritereview{
+    padding: 10px 0px;
+}
+.headingwritereview{
+    display: flex;
+    column-gap: 10rem;
+}
+.buttonsWriteReview{
+    
+    /* width: 100%;  */
+    /* text-align: end; */
+    margin-left:465px;
+}
+.textareawritereview textarea{
+    width: 33vw;
+}
+.buttonsWriteReview button{
+    background-color: #242582;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+}

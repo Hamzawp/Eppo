@@ -1,0 +1,15 @@
+.cardgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.BrowseCategoryContainer .categoryfooter{
+    /* margin-bottom: 5%; */
+    width: 95%;
+    margin-left: 5%;
+}
+.BrowseCategoryContainer h1{
+    text-align: center;
+    font-size: 55px;
+    margin-left: 125px;
+}

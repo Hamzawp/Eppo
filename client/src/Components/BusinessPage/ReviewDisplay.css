@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+.parentReviewDisplay{
+    background-color: antiquewhite;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+.headingReviewDisplay{
+    padding: 5px;
+}
+.headingsdisplay h2, p{
+    padding: 5px 0px;
+}
+.paraReviewDisplay p{
+    padding: 0;
+}
