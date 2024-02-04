@@ -46,9 +46,9 @@ Eppo is a platform that offers a contactless solution for booking physical appoi
 **Landing Page**
 
 <p align="left">
-  <img src='./client/src/Components/assets/demo/demo1.png' alt='Intro Screen' width="80%">
-  <img src='./client/src/Components/assets/demo/demo2.png' alt='Features' width="80%">
-  <img src='./client/src/Components/assets/demo/demo3.png' alt='Features 2' width="80%">
+  <img src='./client/src/Components/assets/demo/demo1.png' alt='Intro Screen' width="100%">
+  <img src='./client/src/Components/assets/demo/demo2.png' alt='Features' width="100%">
+  <img src='./client/src/Components/assets/demo/demo3.png' alt='Features 2' width="100%">
 </p>
 
 <br />
@@ -78,58 +78,38 @@ Eppo is a platform that offers a contactless solution for booking physical appoi
 
 <br />
 
-**Nursery Registration Page**
+**User Dashboard**
 
 <p align="left">
-  <img src='./client/src/assets/additemug1.png' alt='Intro Screen' width="80%">
+  <img src='./client/src/Components/assets/demo/demo6.png' alt='Intro Screen' width="100%">
+  <img src='./client/src/Components/assets/demo/demo7.png' alt='Intro Screen' width="100%">
 </p>
 
 <br />
 <br />
 
-**Home Page**
+**Categories**
 
 <p align="left">
-  <img src='./client/src/assets/homefeedug1.png' alt='Intro Screen' width="80%">
-  <img src='./client/src/assets/homefeedug2.png' alt='Features' width="80%">
+ <img src='./client/src/Components/assets/demo/demo8.png' alt='Intro Screen' width="100%">
 </p>
 
 <br />
 <br />
 
-**Nursery Page**
+**Single Category shop**
 
 <p align="left">
-  <img src='./client/src/assets/nurseryprofug1.png' alt='Intro Screen' width="80%">
-  <img src='./client/src/assets/nurseryprofug2.png' alt='Features' width="80%">
+  <img src='./client/src/Components/assets/demo/demo9.png' alt='Intro Screen' width="100%">
 </p>
 
 <br />
 
-**Add To Cart Page**
+**Single Category shop detail page**
 
 <p align="left">
-  <img src='./client/src/assets/addcartug1.png' alt='Intro Screen' width="80%">
+  <img src='./client/src/Components/assets/demo/demo10.png' alt='Intro Screen' width="100%">
 </p>
-
-<br />
-
-**Filters Page**
-
-<p align="left">
-  <img src='./client/src/assets/filterug1.png' alt='Intro Screen' width="80%">
-</p>
-
-<br />
-
-**Single Product Page**
-
-<p align="left">
-  <img src='./client/src/assets/singleitemug1.png' alt='Intro Screen' width="80%">
-  <img src='./client/src/assets/singleitemug2.png' alt='Intro Screen' width="80%">
-</p>
-
-<br />
 
 <br />
 
