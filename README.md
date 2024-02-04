@@ -1,29 +1,232 @@
-# Err404-5.0
+# Eppo
 
-EPPO - An Appointment Made Easy Website!
-Qualified for top 10 in this hackathon.
+<br/>
 
-Landing Page
+<p align="center">
+  <img src="https://t4.ftcdn.net/jpg/05/54/17/79/360_F_554177966_xX2acthwHjhZ9c8dTeLZZ7DhLjJJ0IRK.jpg" width="20%" />
+</p>
 
-![26ddcca8e7af7ecd3af5115009a923f3029f4e22](https://user-images.githubusercontent.com/95119784/229509638-cdf459df-8f98-4804-a604-dc1a9ffc03a8.jpg)
+<p align="center">
+  <br />
+  <br />
+  <a href="#table-of-contents"><b>Explore the docs »</b></a>
+  <br />
+  <br />
+  <a href="#demonstration">Features</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#contributing">Local Setup</a>
+  <br />
+</p>
 
-![600bffad04542dd623b5017b88cc53724f259a70](https://user-images.githubusercontent.com/95119784/229509856-2aa7438f-a39f-431e-b574-582537d86ce8.jpg)
+## Table Of Contents
 
-![fcb68e3fc5b26faa552df91f23e7cfc36088b0d7](https://user-images.githubusercontent.com/95119784/229509894-0f69bc70-0369-49de-b448-c1c6d77c646f.jpg)
+- [About the Project](#about-the-project)
+- [Demonstration & Features](#demonstration)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+<!-- - [License](#license) -->
+- [Authors](#authors)
 
-![5c5eadd5b37988609dce87298749c09402763f37](https://user-images.githubusercontent.com/95119784/229509905-caf1d956-d84a-4d5d-9ceb-e835ab1e1a5d.jpg)
+## About The Project
 
-DashBoard Page
+Eppo is a platform that offers a contactless solution for booking physical appointments with professionals such as doctors, lawyers, therapists, barbers, and more. However, long wait times, scheduling conflicts, and inefficient appointment management can create frustration for clients and professionals alike.
 
-![1f3d8b63d21d4b5dd28c1e0c5b045b328724a88c](https://user-images.githubusercontent.com/95119784/229510246-c8e39936-182d-48d8-ad42-8e67ea06fe90.jpg)
+<!-- Objectives:
 
-![9980ebce6151cb75eb4aff263ee0481ee56e2ff4](https://user-images.githubusercontent.com/95119784/229510336-f18ba60d-546c-43ab-936e-846380ff9ad6.jpg)
+- To offer a wide selection of high-quality gardening products and accessories at competitive prices.
+- To offer a secure & reliable platform for online transactions, ensuring that customer information are protected.
+- To establish long-term relationships with nursery partners to ensure a reliable and consistent supply of high-quality products.
+- To provide a seamless and user-friendly shopping experience for customers.
+- To expand the reach of the gardening community by making gardening products and resources accessible to people in urban areas. -->
 
-![e45bf409a32236b5562b239722ca9fd3375fd517](https://user-images.githubusercontent.com/95119784/229510700-8078b407-7782-4401-af6b-464dd94d9d1a.jpg)
+## Demonstration
 
-Profile Page
+<br />
 
-![a2103f65c600496a94e6243e5fb6d8cd9d2476a5](https://user-images.githubusercontent.com/95119784/229510457-c2bcbac3-a524-420d-86fe-7fb727a75b06.jpg)
+**Landing Page**
 
-![b7df2ce2840d21a3e55462d76c097de4cda4e832](https://user-images.githubusercontent.com/95119784/229510466-eb20f179-5c16-4c90-80ea-d0c3310bc611.jpg)
+<p align="left">
+  <img src='./client/src/Components/assets/demo/demo1.png' alt='Intro Screen' width="80%">
+  <img src='./client/src/Components/assets/demo/demo2.png' alt='Features' width="80%">
+  <img src='./client/src/Components/assets/demo/demo3.png' alt='Features 2' width="80%">
+</p>
 
+<br />
+<br />
+
+**Register & Login**
+<br />
+
+<table>
+    <tr>
+        <td>
+            <img src='./client/src/Components/assets/demo/demo4.png' alt='REGISTER'>
+        </td>
+        <td>
+            <img src='./client/src/Components/assets/demo/demo5.png' alt='LOGIN'>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <p>User Registration.</p>
+        </td>
+        <td>
+          <p>User Login to start the shopping.</p>
+        </td>
+    </tr>
+</table>
+
+<br />
+
+**Nursery Registration Page**
+
+<p align="left">
+  <img src='./client/src/assets/additemug1.png' alt='Intro Screen' width="80%">
+</p>
+
+<br />
+<br />
+
+**Home Page**
+
+<p align="left">
+  <img src='./client/src/assets/homefeedug1.png' alt='Intro Screen' width="80%">
+  <img src='./client/src/assets/homefeedug2.png' alt='Features' width="80%">
+</p>
+
+<br />
+<br />
+
+**Nursery Page**
+
+<p align="left">
+  <img src='./client/src/assets/nurseryprofug1.png' alt='Intro Screen' width="80%">
+  <img src='./client/src/assets/nurseryprofug2.png' alt='Features' width="80%">
+</p>
+
+<br />
+
+**Add To Cart Page**
+
+<p align="left">
+  <img src='./client/src/assets/addcartug1.png' alt='Intro Screen' width="80%">
+</p>
+
+<br />
+
+**Filters Page**
+
+<p align="left">
+  <img src='./client/src/assets/filterug1.png' alt='Intro Screen' width="80%">
+</p>
+
+<br />
+
+**Single Product Page**
+
+<p align="left">
+  <img src='./client/src/assets/singleitemug1.png' alt='Intro Screen' width="80%">
+  <img src='./client/src/assets/singleitemug2.png' alt='Intro Screen' width="80%">
+</p>
+
+<br />
+
+<br />
+
+### Technologies Used
+
+- Frontend
+  - React.js
+  - CSS
+- Backend
+  - Node.js (Express.js)
+  - MongoDB
+
+<br />
+
+## Contributing
+
+**Local Setup || Project Structure**
+
+NOTE: Individual instructions can be found in respective directories.
+
+- The project contains 4 broad directories.
+
+```
+*
+├───client
+└───server
+```
+
+- `client`: The frontend for the application.
+- `server`: The backend for the application.
+
+<br />
+
+**Client**
+
+For local setup of frontend:
+
+- `cd client`
+- `npm i`
+- `npm start`
+- Go to `localhost:3000`
+
+Structure
+
+```
+src
+├───Components
+├───Pages
+├───redux
+├───App.js
+└───index.js
+```
+
+Individual Component & Pages Structure
+
+```
+component
+├───component.jsx
+└───component.css
+```
+
+```
+Pages
+├───page.jsx
+└───page.css
+```
+
+<br />
+<br />
+
+**Server**
+
+For local setup of backend:
+
+- `cd server`
+- `npm i`
+- `npm start`
+
+```
+server
+├───controllers
+├───models
+├───routes
+├───utils
+├───index.js
+└───package.json
+```
+
+<br />
+<br />
+
+## Authors
+
+- Om Shete
+  - [LinkedIn](https://www.linkedin.com/in/om-shete-25748522a/)
+- Mohib Abbas Sayed
+  - [LinkedIn](https://www.linkedin.com/in/mohib-abbas-sayed-83837422a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- Hamza Sayyed
+  - [LinkedIn](https://shorturl.at/hjAEI)
+- Parth Puranik

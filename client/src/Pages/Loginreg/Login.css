@@ -96,7 +96,8 @@
 .front {
   /* background: linear-gradient(-45deg, #FFCF00 0%, #FC4F4F 100%) no-repeat 0 0/200%; */
   /* background-color: #a04625; */
-  background-image: url(../../../public/pastel-blue-vignette-concrete-textured-background.jpg);
+  background-image: url("https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706918400&semt=ais");
+  object-fit: contain;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 3;
@@ -104,7 +105,7 @@
 
 .back {
   z-index: 2;
-  background-image: url(../../../public/pastel-blue-vignette-concrete-textured-background.jpg);
+  background-image: url("https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706918400&semt=ais");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -305,27 +306,25 @@
   transform-origin: left;
 }
 
-.inp input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+#inp {
   width: 100%;
   border: 0;
-  font-family: inherit;
+  font-family: 'Montserrat', sans-serif;
   padding: 16px 12px 0 12px;
   height: 56px;
   font-size: 16px;
   font-weight: 400;
-  background: rgba(0, 0, 0, 0.02);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  background: rgb(240, 240, 240);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color: #000;
   transition: all 0.15s ease;
+  border-radius: 8px;
 }
 
 .inp input:hover {
   background: rgba(0, 0, 0, 0.04);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
-}
+} 
 
 .inp input:not(:-moz-placeholder-shown) + .label {
   color: rgba(0, 0, 0, 0.5);
@@ -360,7 +359,7 @@
 .LoginBtn {
   width: 100%;
   padding: 10px;
-  background: #0077ff;
+  background: #03a9f4;
   border: none;
   color: #fff;
   font-weight: 700;

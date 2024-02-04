@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import './Login.css';
+import React, { useEffect, useState } from "react";
+import "./Login.css";
 import { useDispatch, useSelector } from "react-redux";
 import { login, register } from "../../redux/apiCalls";
 
@@ -15,7 +15,7 @@ const Login = () => {
     country: undefined,
     phone: undefined,
     password: undefined,
-    Profession: "user"
+    Profession: "user",
   });
 
   const handleChange = (e) => {
@@ -23,7 +23,7 @@ const Login = () => {
   };
   const handleClick1 = (e) => {
     e.preventDefault();
-    register(dispatch, credentials)
+    register(dispatch, credentials);
   };
 
   const { isFetching, error } = useSelector((state) => state.user);
@@ -33,25 +33,25 @@ const Login = () => {
     login(dispatch, { username, password });
   };
 
-  const [containerClass, setContainerClass] = useState('');
+  const [containerClass, setContainerClass] = useState("");
 
   const handleRegisterClick = () => {
-    setContainerClass('active');
+    setContainerClass("active");
   };
 
   const handleLoginClick = () => {
-    setContainerClass('close');
+    setContainerClass("close");
   };
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
-        position => {
+        (position) => {
           setLocation({
             lat: position.coords.latitude,
-            lng: position.coords.longitude
+            lng: position.coords.longitude,
           });
         },
-        error => {
+        (error) => {
           console.log(error);
         }
       );
@@ -64,8 +64,8 @@ const Login = () => {
     if (location) {
       const url = `https://nominatim.openstreetmap.org/reverse?lat=${location.lat}&lon=${location.lng}&format=jsonv2`;
       fetch(url)
-        .then(response => response.json())
-        .then(data => {
+        .then((response) => response.json())
+        .then((data) => {
           if (data.address.city) {
             credentials.city = data.address.city;
             credentials.country = data.address.country;
@@ -83,7 +83,7 @@ const Login = () => {
             credentials.country = data.address.country;
           }
         })
-        .catch(error => {
+        .catch((error) => {
           console.log(error);
         });
     }
@@ -95,16 +95,33 @@ const Login = () => {
           <div className="content">
             <h1>Log In</h1>
             <label className="inp" for="inp">
-              <input placeholder="" id="inp" type="text" onChange={(e) => setUsername(e.target.value)} />
+              <input
+                placeholder=""
+                id="inp"
+                type="text"
+                onChange={(e) => setUsername(e.target.value)}
+              />
               <span className="label">Name</span>
               <span className="focus-bg"></span>
             </label>
             <label className="inp" for="inp">
-              <input placeholder="" id="inp" type="password" onChange={(e) => setPassword(e.target.value)} />
+              <input
+                placeholder=""
+                id="inp"
+                type="password"
+                onChange={(e) => setPassword(e.target.value)}
+              />
               <span className="label">Password</span>
               <span className="focus-bg"></span>
             </label>
-            <button disabled={isFetching} className="LoginBtn" role="button" onClick={handleClick}>Sign In</button>
+            <button
+              disabled={isFetching}
+              className="LoginBtn"
+              role="button"
+              onClick={handleClick}
+            >
+              Sign In
+            </button>
             {error && <span>Something went wrong...</span>}
           </div>
         </div>
@@ -155,7 +172,9 @@ const Login = () => {
               <line x1="15" y1="12" x2="3" y2="12" />
             </svg>
             <h1>Welcome Back!</h1>
-            <p>To keep connected with us please login with your personal info</p>
+            <p>
+              To keep connected with us please login with your personal info
+            </p>
             <button type="" id="login" onClick={handleLoginClick}>
               Log In
             </button>
@@ -164,34 +183,55 @@ const Login = () => {
 
         <div className="Register">
           <div className="content">
-            <h1>Sign Up</h1>
+            <h1 style={{ marginBottom: "1em" }}>Sign Up</h1>
             <label className="inp" for="inp">
-              <input placeholder="" id="inp" type="email" onChange={handleChange} />
+              <input
+                placeholder=""
+                id="inp"
+                type="email"
+                onChange={handleChange}
+              />
               <span className="label">Email</span>
               <span className="focus-bg"></span>
             </label>
             <label className="inp" for="inp">
-              <input placeholder="" id="inp" type="text" onChange={handleChange} />
+              <input
+                placeholder=""
+                id="inp"
+                type="text"
+                onChange={handleChange}
+              />
               <span className="label">Name</span>
               <span className="focus-bg"></span>
             </label>
             <label className="inp" for="inp">
-              <input placeholder="" id="inp" type="number" onChange={handleChange} />
+              <input
+                placeholder=""
+                id="inp"
+                type="number"
+                onChange={handleChange}
+              />
               <span className="label">Phone Number</span>
               <span className="focus-bg"></span>
             </label>
             <label className="inp" for="inp">
-              <input placeholder="" id="inp" type="password" onChange={handleChange} />
+              <input
+                placeholder=""
+                id="inp"
+                type="password"
+                onChange={handleChange}
+              />
               <span className="label">Password</span>
               <span className="focus-bg"></span>
             </label>
-            <button className="LoginBtn" role="button" onChange={handleClick1}>Sign Up</button>
+            <button className="LoginBtn" role="button" onChange={handleClick1}>
+              Sign Up
+            </button>
           </div>
         </div>
       </div>
-
     </>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

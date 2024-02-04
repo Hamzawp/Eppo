@@ -14,6 +14,7 @@ import SingleProffesionalPage from './Pages/SignupProfessionalPage/SignupProfess
 import SingleBusinessPage from './Pages/SingleBusinessPage/SingleBusinessPage';
 import SingleCategoryPage from './Pages/SingleCategoryPage/SingleCategoryPage';
 import { useSelector } from 'react-redux';
+import './App.css'
 
 function App() {
   const user = useSelector((state) => state.user.currentUser);

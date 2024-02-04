@@ -10,14 +10,15 @@ const LandingPage = () => {
         <section className="NavBarContainer">
             <div className="InnerNavCont">
                 <div className="LogoHead">
+                    <img src="https://t4.ftcdn.net/jpg/05/54/17/79/360_F_554177966_xX2acthwHjhZ9c8dTeLZZ7DhLjJJ0IRK.jpg" alt="" />
                     <h1>EPPO</h1>
                 </div>
 
                 <div className="NavItems">
                     <ul>
-                        <Link to='/HomePage'><li>Home</li></Link>
-                        <li>Customers</li>
-                        <li>Contact US</li>
+                        <Link to='/HomePage' style={{ textDecoration: "none" }}><li>Home</li></Link>
+                        <Link to='/HomePage' style={{ textDecoration: "none" }}><li>About Us</li></Link>
+                        <Link to='/HomePage' style={{ textDecoration: "none" }}><li>Contact Us</li></Link>
                     </ul>
                 </div>
 
@@ -31,7 +32,7 @@ const LandingPage = () => {
 
         <section className="heroSection">
             <div className="LeftHero">
-                <h1>Discover the easiest way to schedule appointments with the<br /> #1 online booking system</h1>
+                <h1>Discover the easiest way to schedule appointments with the #1 online booking system</h1>
                 <p>Save time spent on coordinating appointments over phone and email with an all-in-one appointment booking software. Accept online bookings 24x7, automate payments, business management, marketing, and more!</p>
                 <button>Get Started</button>
             </div>
