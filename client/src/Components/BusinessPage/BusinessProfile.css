@@ -1,184 +1,183 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-.parentBusinessProfile{
-    padding: 20px 40px 20px 120px;
-    display: flex;
-    column-gap: 1rem;
-    background-color: #e7e7e7;
-    position: relative;
+.parentBusinessProfile {
+  padding: 20px 40px 20px 120px;
+  display: flex;
+  column-gap: 1rem;
+  background-color: #e7e7e7;
+  position: relative;
 }
-.leftBusinessProfile{
-    width: 60%;
-    display: grid;
-    /* flex-direction: column; */
-    grid-template-columns: 1fr;
-    row-gap: 2rem;
-    
-    border-radius:5px
+.leftBusinessProfile {
+  width: 60%;
+  display: grid;
+  /* flex-direction: column; */
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+
+  border-radius: 5px;
 }
-.rightBusinessProfile{
-    width: 40%;
+.rightBusinessProfile {
+  width: 40%;
 }
-.mainprofileBusinessProfile, .bookBusinessProfile{
-    border-radius: 5px;
-    background-color: #fff;
+.mainprofileBusinessProfile,
+.bookBusinessProfile {
+  border-radius: 5px;
+  background-color: #fff;
 }
-.mainprofileBusinessProfile{
-    position: relative;
-    padding-bottom: 3rem;
-    
+.mainprofileBusinessProfile {
+  position: relative;
+  padding-bottom: 3rem;
 }
-.detialbody{
-    display: flex;
-    column-gap: 7rem;
+.detialbody {
+  display: flex;
+  column-gap: 7rem;
+  padding: 10px 20px;
 }
-.detailsBusinessProfile{
-    padding: 1px;
+.detailsBusinessProfile {
+  padding: 1px;
 }
-.maindetails{
-    margin-top:95px;
-    padding: 10px 25px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.1rem;
+.maindetails {
+  margin-top: 95px;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.1rem;
 }
-.maindetails h1, p{
-    padding: 0;
-    margin: 0;
+.maindetails h1,
+p {
+  padding: 0;
+  margin: 0;
 }
-.addressBusinessProfile{
-    display: flex;
-    align-items: center;
-    padding: 5px 25px;
+.addressBusinessProfile {
+  display: flex;
+  align-items: center;
+  padding: 5px 25px;
 }
-.tagimg{
-    max-height: 250px;
+.tagimg {
+  max-height: 250px;
 }
-.tagbg{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
+.tagbg {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
-.iconmainprofile{
-    position: absolute;
-    border-radius: 50%;
-    
-    width: 200px;
-    top: 25%;
-    left: 5%;
+.iconmainprofile {
+  position: absolute;
+  border-radius: 50%;
+
+  width: 200px;
+  top: 25%;
+  left: 5%;
 }
-.tagicon{
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    border: 3px solid #fff;
+.tagicon {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #fff;
 }
-.ratingBusinessProfile{
-    margin-top:110px;
-    /* z-index: -99999; */
+.ratingBusinessProfile {
+  margin-top: 110px;
+  /* z-index: -99999; */
 }
-.ratingBusinessProfile Box{
-    z-index: -1;
+.ratingBusinessProfile Box {
+  z-index: -1;
 }
 
-.rightBusinessProfile{
-    background-color: #fff;
-    padding: 10px 10px;
-    border-radius: 5px;
+.rightBusinessProfile {
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
 }
-.reviewsBusinessProfile{
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 0.5rem;
-    max-height: 425px;
-    overflow-y: scroll;
+.reviewsBusinessProfile {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.5rem;
+  max-height: 425px;
+  overflow-y: scroll;
 }
 /* .reviewsBusinessProfile ::-webkit-scrollbar{
  
 } */
 
-
-.bookBusinessProfile{
-    
-    background-color:#fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.bookBusinessProfile {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
-.bookheadingBusinessProfile{
-    padding: 20px 50px;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    column-gap: 0.5rem;
+.bookheadingBusinessProfile {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  column-gap: 0.5rem;
 }
-.bookheadingBusinessProfile .plusbutton{
-    width: 35px;
-    height: 35px;
-    background-color: #242582;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 3px;
-    font-size:1rem;
+.bookheadingBusinessProfile .plusbutton {
+  width: 35px;
+  height: 35px;
+  background-color: #242582;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  font-size: 1rem;
 }
-.bookheadingBusinessProfile:hover{
-    cursor: pointer;
+.bookheadingBusinessProfile:hover {
+  cursor: pointer;
 }
 
 /* Contact INfo */
-.contactinfoBusinessProfile{
-    padding: 0px 20px;
+.contactinfoBusinessProfile {
+  padding: 0px 20px;
 }
 .contactbutton {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #242582;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 14px;
-    padding: 16px;
-    width: 130px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-   }
-   
-   .contactbutton span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-   }
-   
-   .contactbutton span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
-   }
-   
-   .contactbutton:hover span {
-    padding-right: 15px;
-   }
-   
-   .contactbutton:hover span:after {
-    opacity: 1;
-    right: 0;
-   }
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #242582;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.contactbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.contactbutton span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.contactbutton:hover span {
+  padding-right: 15px;
+}
+
+.contactbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 /* Contact INfo */
 
-
-.rightBusinessProfile{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+.rightBusinessProfile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-.reviewsBusinessProfile{
-    height: 50%;
+.reviewsBusinessProfile {
+  height: 50%;
 }
-.writereviewBusinessProfile{
-    height: 50%;
+.writereviewBusinessProfile {
+  height: 50%;
 }
