@@ -210,3 +210,7 @@ server
 - Hamza Sayyed
   - [LinkedIn](https://shorturl.at/hjAEI)
 - Parth Puranik
+
+## License 📜
+
+[GPU License](https://github.com/Hamzawp/Eppo/blob/master/LICENSE.txt)
